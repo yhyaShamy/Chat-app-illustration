@@ -1,0 +1,91 @@
+/*BELOW 800 PX */
+@media (max-width: 50em) {
+  html {
+    /* FONT-SIZE :9 PX; */
+    font-size: 56.25%;
+  }
+  .iphone::before {
+    height: 270%;
+    left: -15%;
+  }
+}
+
+/*BELOW 672 PX */
+@media (max-width: 42em) {
+  html {
+    /* FONT-SIZE :8 PX; */
+    font-size: 50%;
+  }
+}
+
+/*BELOW 608 PX */
+@media (max-width: 38em) {
+  html {
+    /* FONT-SIZE : 10 PX; */
+    font-size: 62.5%;
+  }
+  .main-grid {
+    gap: 8.6rem;
+    grid-template-columns: 1fr;
+  }
+  .iphone {
+    width: 100%;
+    margin: 0 auto;
+  }
+  .iphone::before {
+    width: 70%;
+    height: 120%;
+    left: -14%;
+  }
+  .border-helper {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .text-box {
+    width: 60%;
+    margin: 0 auto;
+  }
+  .text-box::after {
+    width: 60%;
+    height: 200%;
+    top: 120%;
+    right: -10%;
+  }
+}
+
+/*BELOW 492 PX */
+@media (max-width: 30.75em) {
+  html {
+    /* FONT-SIZE :8 PX; */
+    font-size: 50%;
+  }
+}
+
+/*BELOW 416 PX */
+@media (max-width: 26em) {
+  html {
+    /* FONT-SIZE :7 PX; */
+    font-size: 43.75%;
+  }
+}
+
+/*BELOW 368 PX */
+@media (max-width: 23em) {
+  html {
+    /* FONT-SIZE :6 PX; */
+    font-size: 37.5%;
+  }
+  .iphone::before {
+    width: 70%;
+    height: 90%;
+    left: -14%;
+  }
+}
+
+/*BELOW 320 PX */
+@media (max-width: 20em) {
+  html {
+    /* FONT-SIZE :5 PX; */
+    font-size: 31.25%;
+  }
+}
